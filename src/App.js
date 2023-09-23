@@ -16,7 +16,10 @@ function App() {
 
   return (
     <>
-      <div className='container-fluid p-4 border border-dark border-2'>
+      <div className='container-fluid p-4'>
+        <div className='container p-1'>
+          <center className='headTag'>PROFILES</center>
+        </div>
         <ul className='itemLists'>
           <Profile img={imgOne} name='Larry Ellison' email='larry343ellison@official.com' contact='+63 791 675 8914' link='#' />
           <Profile img={imgTwo} name='Steve Jobs' email='stevejo555bs@official.com' contact='+7 813 117 7139' link='#' />

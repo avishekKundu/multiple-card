@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
 .App {
   text-align: center;
 }
@@ -35,4 +37,42 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.itemCard {
+  height: 600px;
+  box-shadow: 0 0 8px #0d6efd;
+}
+
+.headTag {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 35px;
+}
+
+.listImg {
+  height: 250px;
+  width: 240px;
+  margin-top: 20px;
+  margin-bottom: 18px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid #0d6efd;
+  &:hover {
+    box-shadow: 0 0 15px #0d6efd;
+    cursor: pointer;
+  }
+}
+
+.itemLists {
+  padding: 15px;
+  padding-left: 68px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px 15px;
+}
+
+.listItem {
+  height: 620px;
+  width: 400px;
+  margin-top: 5px;
 }
