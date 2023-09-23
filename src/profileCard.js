@@ -6,14 +6,14 @@ class Profile extends React.Component {
             <li className="list-group-item listItem">
                 <div class="card border border-primary border-3 itemCard">
                     <img src={this.props.img} class="card-img-top rounded-circle listImg" alt="Not Found" />
-                    <div class="card-body itemBody">
+                    <div class="itemBody text-center">
                         <h5 class="card-title">{this.props.name}</h5>
                         <p class="card-text">E-Mail: {this.props.email}</p>
                         <p class="card-text">Contact: {this.props.contact}</p>
                         <button className="btn btn-outline-primary">
                             <a href={this.props.link} className="nav-link">CHECK PROFILE</a>
                         </button>
-                        <div className="container mt-2 p-2 m-auto d-flex justify-content-between">
+                        <div className="container d-flex justify-content-between iconContainer">
                             <a href={this.props.link} className="iconLink">
                                 <i class="fa-brands fa-twitter fa-2xl"></i>
                             </a>
