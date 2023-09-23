@@ -41,7 +41,7 @@
 }
 
 .itemCard {
-  height: 580px;
+  height: 600px;
   box-shadow: 0 0 8px #0d6efd;
 }
 
@@ -88,6 +88,6 @@
 }
 
 .iconContainer {
-  margin-top: 35px;
+  margin-top: 36px;
   padding: 10px 20px;
 }
