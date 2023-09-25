@@ -13,6 +13,8 @@ function App() {
   const imgEight = `${process.env.PUBLIC_URL}/images/imgCardEight.jpeg`;
   const imgNine = `${process.env.PUBLIC_URL}/images/imgCardNine.jpeg`;
   const imgTen = `${process.env.PUBLIC_URL}/images/imgCardTen.jpeg`;
+  const imgEleven = `${process.env.PUBLIC_URL}/images/imgCardEleven.jpeg`;
+  const imgTwelve = `${process.env.PUBLIC_URL}/images/imgCardTwelve.jpeg`;
 
   return (
     <>
@@ -31,6 +33,8 @@ function App() {
           <Profile img={imgEight} name='John Chambers' email='johnchambers2233@official.com' contact='+86 946 297 2275' link='#' />
           <Profile img={imgNine} name='John Johnson' email='johnjohnson1121@official.com' contact='+86 356 590 9727' link='#' />
           <Profile img={imgTen} name='Linus Torvalds' email='linustorvalds4408@official.com' contact='+60 184 408 0824' link='#' />
+          <Profile img={imgEleven} name='Rob Carter' email='robcarter777702@official.com' contact='+967 253 210 0344' link='#' />
+          <Profile img={imgTwelve} name='Henning Kagermann' email='henningkagermann004@official.com' contact='+380 962 542 6549' link='#' />
         </ul>
       </div>
     </>
